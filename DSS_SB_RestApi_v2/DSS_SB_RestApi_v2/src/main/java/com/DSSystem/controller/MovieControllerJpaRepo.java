@@ -107,13 +107,5 @@ public class MovieControllerJpaRepo {
 		return deletedMovie;
 	}
 
-//	@DeleteMapping("/movies/{id}")
-//	public Map<String,Boolean> deleteMovieById(@PathVariable(value="id") Integer id) {
-//		Movie existingMovie = movieRepository.findById(id).get();
-//	    movieRepository.delete(existingMovie);
-//	    Map<String, Boolean> response = new HashMap<>();
-//	    response.put("deleted", Boolean.TRUE);
-//		return response;
-//	}
 
 }
