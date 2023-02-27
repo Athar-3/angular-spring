@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="MMMGatewayService" />
+        <module name="MMMdiscoveryserver" />
+        <module name="MMMAPIGatewayService" />
+        <module name="MMMAdminMicroservice" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="MMMAdminMicroservice" target="17" />
+      <module name="MMMAPIGatewayService" target="17" />
+      <module name="MMMdiscoveryserver" target="17" />
+      <module name="MMMGatewayService" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="MMMAPIGatewayService" options="-parameters" />
+      <module name="MMMAdminMicroservice" options="-parameters" />
+      <module name="MMMGatewayService" options="-parameters" />
+      <module name="MMMdiscoveryserver" options="-parameters" />
+    </option>
+  </component>
+</project>

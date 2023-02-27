@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MMMAdminMicroservice/MMMAdminMicroservice.iml" filepath="$PROJECT_DIR$/MMMAdminMicroservice/MMMAdminMicroservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MMMGatewayService/MMMGatewayService.iml" filepath="$PROJECT_DIR$/MMMGatewayService/MMMGatewayService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MMMdiscoveryserver/MMMdiscoveryserver.iml" filepath="$PROJECT_DIR$/MMMdiscoveryserver/MMMdiscoveryserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MagicalMatrixMoviess.iml" filepath="$PROJECT_DIR$/MagicalMatrixMoviess.iml" />
+    </modules>
+  </component>
+</project>
