@@ -32,8 +32,7 @@ public class MovieControllerJpaRepo {
 	
 	@GetMapping("/movies")
 	public List<Movie> getMovieList() {
-		List<Movie> movieList = null;
-			movieList = movieRepository.findAll();
+		List<Movie> movieList =  movieRepository.findAll();
 			return movieList;
 	}
 	

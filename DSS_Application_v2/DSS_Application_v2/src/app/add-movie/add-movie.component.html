@@ -78,7 +78,7 @@
                   <div class="col-md-6 mb-4 pb-2">
   
                     <label for="releaseYear" class="btn">Release date</label>
-                        <input type="date"  formControlName="releaseYear" class="form-control"
+                        <input type="text"  formControlName="releaseYear" class="form-control"
                             [ngClass]="{ 'is-invalid': submitted && f['releaseYear'].errors }" />
                         <div *ngIf="submitted && f['releaseYear'].errors" class="invalid-feedback">
                             <div *ngIf="f['releaseYear'].errors['required']">Release date is required</div>
